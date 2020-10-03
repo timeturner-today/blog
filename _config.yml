@@ -35,7 +35,7 @@ description:           >
 tagline:               Together, Forward
 
 # A list of keywords for your blog
-keywords:              [social issues, political discourse, history, perspective, human condition]
+keywords:              [social issues, political discourse, history, justice, law, equality, constitution, perspective, human condition]
 
 # A (square) logo for your site.
 # If provided, it will be shown at the top of the sidebar.
@@ -52,6 +52,8 @@ author:
 
 # Add links to the sidebar.
 menu:
+  - title:             Home
+    url:               /home/
   - title:             Podcasts
     url:               /podcasts/
   - title:             Today
@@ -154,11 +156,11 @@ defaults:
     values:
       sitemap:         false
 
-  # # You can use the following to enable comments on all posts.
-  # - scope:
-  #     type:            posts
-  #   values:
-  #     comments:        true
+  # You can use the following to enable comments on all posts.
+  - scope:
+      type:            posts
+    values:
+      comments:        true
 
   # `jekyll-seo-tag` will mark collection outputs as `BlogPosting`,
   # but we want them to be `WebPage`s:
